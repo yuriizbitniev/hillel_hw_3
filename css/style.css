@@ -1,7 +1,28 @@
+body {
+    background-color: #8aafd9;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    margin-right: 10px;
+}
+
 form {
     text-align: center;
 }
 
-group {
+button {
+    margin-top: 10px;
+}
 
+label {
+    margin-right: 10px;
 }
