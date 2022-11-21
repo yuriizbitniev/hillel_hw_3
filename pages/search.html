@@ -18,65 +18,94 @@
     <form action="https://fom.in.ua/echo" method="POST">
         <h1>Car Search</h1>
 
-        <h4>Тип кузова</h4>
-        <select name="kyzov">
+        <h4>Body Type</h4>
+        <select name="body-type">
+            <option>Universal</option>
             <option>Sedan</option>
-            <option>hachback</option>
+            <option>Coupe</option>
+            <option>Hatchback</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Марка авто</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Car Brand</h4>
+        <select name="car-brand">
+            <option>Audi</option>
+            <option>BMW</option>
+            <option>Ford</option>
+            <option>Lexus</option>
+            <option>Volvo</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Country</h4>
+        <select name="country">
+            <option>Germany</option>
+            <option>Japan</option>
+            <option>USA</option>
+            <option>Ukraine</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Price, UAH</h4>
+        <select name="price">
+            <option>10000-50000</option>
+            <option>50000-100000</option>
+            <option>100000-200000</option>
+            <option>200000-500000</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Production year</h4>
+        <select name="year">
+            <option>1900-1950</option>
+            <option>1950-1980</option>
+            <option>1980-2000</option>
+            <option>2000-2020</option>
+            <option>2020-2022</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Condition</h4>
+        <input type="checkbox" name="Condition">New
+        <input type="checkbox" name="Condition">Used
+        <input type="checkbox" name="Condition">On credit
+        <input type="checkbox" name="Condition">Uncleared
+
+        <h4>Fuel Type</h4>
+        <select name="fuel">
+            <option>Petrol</option>
+            <option>Diesel</option>
+            <option>Gas</option>
+            <option>Electro</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Transmission</h4>
+        <select name="transmission">
+            <option>Automat</option>
+            <option>Manual</option>
+            <option>Tiptronic</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Color</h4>
+        <select name="color">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Black</option>
+            <option>White</option>
+            <option selected="selected"></option>
         </select>
 
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
+        <h4>Comfort</h4>
+        <select name="comfort">
+            <option>Leather</option>
+            <option>Luke</option>
+            <option>Climate control</option>
+            <option>Acoustics</option>
+            <option selected="selected"></option>
         </select>
-
-        <h4>Країна виробник</h4>
-        <select name="marka">
-            <option>Sedan</option>
-            <option>hachback</option>
-        </select>
-
+        <p>
+        <button type="submit" class="search-btn">Search</button></p>
     </form>
 </nav>
